@@ -1,0 +1,17 @@
+{
+	"name": "SQLcreateTemplateScript",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [ProductId]\n,[ProductName]\n,[ProductShortDescription]\n,[ProductDescription]\n,[ProductInternalName]\n,[ProductModelName]\n,[ProductBaseName]\n,[ProductCodeName]\n,[ProductIntendedUse]\n,[IntroductionDate]\n,[FirstDateManufactured]\n,[PlannedAbandonmentDate]\n,[ActualAbandonmentDate]\n,[GlobalTradeItemNumber]\n,[GtinName]\n,[EuropeanArticleNumber]\n,[UniversalProductCode]\n,[GpcBrickId]\n,[ItemElectronicProductCode]\n,[ComponentPartIdentifier]\n,[PluCode]\n,[ProductNetContent]\n,[NetContentUomId]\n,[ResponsibilityCenterId]\n,[StorageInstructions]\n,[ShelfLifeDays]\n,[ConsumerStorageInstructions]\n,[ProductShippingInstructions]\n,[ConsumerUsageInstructions]\n,[HealthClaimDescription]\n,[MarketingMessageDescription]\n,[BundledProductIndicator]\n,[InformationLabelText]\n,[DescriptiveLabelText]\n,[WarningInformationText]\n,[GradeLabelText]\n,[GovernmentWarningLabelText]\n,[PatentNumber]\n,[PatentDate]\n,[PatentExpirationDate]\n,[Trademark]\n,[ProductLogo]\n,[ProductSymbol]\n,[CopyrightNumber]\n,[CopyrightDate]\n,[ProductLicenserName]\n,[EligibleForExportIndicator]\n,[ProductExportRestrictionIndicator]\n,[ProductExportRestrictionStartDate]\n,[ProductExportRestrictionEndDate]\n,[ProductExportRestrictionDescription]\n,[BaseProductQuantity]\n,[ProductLength]\n,[ProductPlanogramLength]\n,[ProductLengthUomId]\n,[ProductWidth]\n,[ProductPlanogramWidth]\n,[ProductWidthUomId]\n,[ProductHeight]\n,[ProductPlanogramHeight]\n,[ProductHeightUomId]\n,[ProductVolume]\n,[ProductVolumeUomId]\n,[ProductNetWeight]\n,[ProductNetWeightUomId]\n,[ProductGrossWeight]\n,[ProductGrossWeightUomId]\n,[ProductDrainedWeight]\n,[ProductDrainedWeightUomId]\n,[MinimumStorageTemperature]\n,[MinimumStorageTemperatureUomId]\n,[MaximumStorageTemperature]\n,[MaximumStorageTemperatureUomId]\n,[MinimumStorageHumidity]\n,[MinimumStorageHumidityUomId]\n,[MaximumStorageHumidity]\n,[MaximumStorageHumidityUomId]\n,[ReturnPolicyStatement]\n,[ReturnPolicyPeriodInDays]\n,[ReplacementPolicyStatement]\n,[ReplacementPeriodInDays]\n,[ExchangePolicyStatement]\n,[ExchangePolicyPeriodInDays]\n,[ProductMustBeDeliveredDaysPriorToExpirationDate]\n,[WarrantyId]\n,[ItemSku]\n,[PrimaryBrandId]\n,[ProductTypeId]\n,[PackageTypeId]\n,[PrimaryCountryOfOriginCountryId]\n,[GeographicAreaOfOriginGeographicAreaId]\n,[PrimaryColorId]\n,[FlavorTypeId]\n,[ScentTypeId]\n,[SuitableAgeRatingId]\n,[SeasonalUsageId]\n,[ListPrice]\n FROM [RetailDB].[dbo].[Product]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "RetailDB",
+				"poolName": "Built-in"
+			},
+			"resultLimit": -1
+		},
+		"type": "SqlQuery"
+	}
+}

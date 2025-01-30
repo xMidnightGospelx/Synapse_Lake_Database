@@ -1,0 +1,17 @@
+{
+	"name": "SQL Script SalesOrder",
+	"properties": {
+		"content": {
+			"query": "SELECT *\nFROM \n    SalesOrder\n\nSELECT *\nFROM\n    Customer\n\nSELECT *\nFROM\n    Product\n\nSELECT\n    o.SalesOrderID, \n    c.EmailAddress, \n    p.ProductName, \n    o.Quantity\nFROM\n    SalesOrder AS o\nINNER JOIN\n    Customer AS c\nON \n    c.CustomerId = o.CustomerId\nINNER JOIN\n    Product AS p\nON  \n    p.ProductId = o.ProductId\n\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "RetailDB",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "relationship-xmsqcykffb",
+	"properties": {
+		"Name": "relationship-xmsqcykffb",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "RetailDB"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Product",
+		"ToTableName": "XZGBSalesOrder",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ProductId",
+				"ToColumnName": "ProductId"
+			}
+		],
+		"RelationshipType": 0,
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "0f267200-62bd-470c-9893-17fbe1974342"
+	},
+	"type": "RELATIONSHIP"
+}
